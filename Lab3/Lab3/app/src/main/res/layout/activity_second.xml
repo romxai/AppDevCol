@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Heading TextView -->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent Examples"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- LinearLayout for Buttons -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Maps"
+            android:onClick="launchMap"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Market"
+            android:onClick="launchMarket"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 3 -->
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Email"
+            android:onClick="launchMail"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 4 -->
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch WebPage"
+            android:onClick="launchWebPage"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 5 -->
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Calls"
+            android:onClick="launchPhone"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 6 -->
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Camera"
+            android:onClick="launchCamera"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Button 7 -->
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch Messenger"
+            android:onClick="launchMessages"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>
